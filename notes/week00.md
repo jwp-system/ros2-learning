@@ -220,4 +220,12 @@ Windows(WSL2) 기반 환경 구축
     - Docker Desktop 설치 후 Dev Container로 CLI와 코드 작성 가능
     - GUI(turtlesim, RViz)는 XQuartz 설정이 필요하거나 noVNC 방식을 써야 함.
     - Apple Silicon에서는 arm64 이미지로 동작하는데, Gazebo는 성능이 크게 떨어질 수 있음.
-9.
+
+#### 완료 체크 리스트
+
+- [ ]  WSL2/Docker가 정상 동작 (`docker run hello-world`)
+- [ ]  VS Code에서 Dev Container로 프로젝트가 열림
+- [ ]  `talker`/`listener` 통신 확인
+- [ ]  turtlesim 창이 뜨고 방향키로 조작됨
+- [ ]  `colcon build` 에러 없이 완료
+- [ ]  GitHub에 첫 커밋 푸시
