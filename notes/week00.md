@@ -1,4 +1,4 @@
-Windows(WSL2) 기반 환경 구축
+## Windows(WSL2) 기반 환경 구축
 
 목표 : VSCode에서 컨테이너 열고 `ros2 run turtlesim turtlesim_node`를 실행
 
